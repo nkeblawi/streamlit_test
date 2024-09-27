@@ -1,4 +1,6 @@
 streamlit
+st-files-connection
+s3fs
 pandas
 numpy
 datetime

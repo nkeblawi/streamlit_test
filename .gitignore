@@ -9,6 +9,11 @@ __pycache__/
 # Datasets
 data/
 
+# Streamlit secret
+.streamlit
+.streamlit/secrets.toml
+secrets.toml
+
 # Distribution / packaging
 .Python
 build/
