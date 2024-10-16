@@ -10,7 +10,7 @@ st.write("Enter a date to get historical weather information for that day:")
 
 # Date input
 date = st.date_input("Choose the date", value=None)
-st.write("Date ranges between January 1, 1962 and September 25, 2024.")
+st.write("Date ranges between January 1, 1962 and October 15, 2024.")
 
 # Load the data (this will use the cached data from data_loader.py)
 df = load_data()
