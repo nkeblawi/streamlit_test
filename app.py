@@ -29,19 +29,6 @@ if st.button("Get Data"):
         st.error("No data available for this date.")
     else:
         # Display the weather data if available
-        # st.write(f"High Temperature: {selected_row['t_max'].values[0]} °F")
-        # st.write(f"Low Temperature: {selected_row['t_min'].values[0]} °F")
-        # st.write(f"Average Temperature: {selected_row['t_avg'].values[0]} °F")
-        # st.write(f"Temp Departure: {selected_row['departure'].values[0]} °F")
-        # st.write(f"Heating Degree Days: {selected_row['hdd'].values[0]}")
-        # st.write(f"Cooling Degree Days: {selected_row['cdd'].values[0]}")
-        # st.write(f"Precipitation: {selected_row['precipitation'].values[0]} inches")
-        # st.write(f"Snowfall: {selected_row['snowfall'].values[0]} inches")
-        # st.write(f"Snow-Water Equivalent: {selected_row['swe'].values[0]}")
-        # st.write(
-        #     f"Total Event Snowfall: {selected_row['total_event_sn'].values[0]} inches"
-        # )
-        # st.write(f"Snow Depth: {selected_row['snow_depth'].values[0]} inches")
 
         # Create two columns with a 1:1 ratio
         col1, col2 = st.columns(2)
